@@ -1,0 +1,452 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.ui-bar, .ui-body {
+position: relative;
+padding: .4em 15px;
+padding-top: 0.4em;
+padding-right: 15px;
+padding-bottom: 0.4em;
+padding-left: 15px;
+overflow: hidden;
+overflow-x: hidden;
+overflow-y: hidden;
+display: block;
+clear: both;
+background: #f4efe9;
+}
+
+.ui-page {
+
+background: #f4efe9;
+
+}
+
+
+
+.treeNameBar {
+   /* background:#060001 !important; */
+    margin: 10px;
+                                       
+    color: #939393;
+    font-weight:bold;
+  /*  text-shadow:0 -1px 1px #981016 !important; */
+    text-decoration:none;
+ 
+
+}
+#treeName {position:relative;display:inline;float:left; margin:0 15px 0 0;}
+#latinName {position:relative;display:inline;float:right;}
+
+#treeContent {
+
+background: rgb(254,254,253); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(254,254,253,1) 0%, rgba(220,227,196,1) 42%, rgba(174,191,118,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,254,253,1)), color-stop(42%,rgba(220,227,196,1)), color-stop(100%,rgba(174,191,118,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(254,254,253,1) 0%,rgba(220,227,196,1) 42%,rgba(174,191,118,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(254,254,253,1) 0%,rgba(220,227,196,1) 42%,rgba(174,191,118,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(254,254,253,1) 0%,rgba(220,227,196,1) 42%,rgba(174,191,118,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(254,254,253,1) 0%,rgba(220,227,196,1) 42%,rgba(174,191,118,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefd', endColorstr='#aebf76',GradientType=0 ); /* IE6-9 */
+
+}
+
+.treeCollapse {
+
+}
+
+.treeImage {
+
+
+}
+
+.group::after {
+content: ".";
+display: block;
+clear: both;
+visibility: hidden;
+line-height: 0;
+height: 0;
+}
+
+.tree-description {
+
+padding: 20px;
+
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(51%,rgba(225,225,225,1)), color-stop(100%,rgba(246,246,246,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+
+
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+
+
+}
+
+.logo {
+  max-width: 320px;
+  padding: 13px 0 5px;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  margin-right:30px;
+  }
+
+  
+  /* Navbar icons custom */
+  /*
+  .nav-glyphish-example .ui-btn .ui-btn-inner { padding-top: 40px !important; }
+		.nav-glyphish-example .ui-btn .ui-icon { width: 30px!important; height: 30px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }
+		#trees .ui-icon { background:  url(icons/pine-tree.png) 50% 50% no-repeat; background-size: 24px 22px; }
+		#oldgrowth .ui-icon { background:  url(glyphish-icons/121-landscape.png) 50% 50% no-repeat; background-size: 24px 16px;  }
+		#map .ui-icon { background:  url(glyphish-icons/103-map.png) 50% 50% no-repeat;  background-size: 22px 26px; }
+		#about .ui-icon { background:  url(glyphish-icons/189-plant.png) 50% 50% no-repeat;  background-size: 22px 27px; }
+		
+		*/
+/* #map_canvas { height: 330px; width: 100%; margin: 0px; padding: 0px } */
+
+
+/* header logo */
+
+.logo
+{
+    background-image: url('images/treeicon.png');
+    background-repeat: no-repeat;
+    width: 134px;
+    height: 75px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+/* added stuff from take me fishing */
+
+#main_nav {
+    text-align: center;
+  /*  background: url(images/bkgd_nav.jpg); */
+}
+
+#main_nav a {
+    float: none !important;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+#main_nav .ui-grid-a,
+#main_nav .ui-grid-b {
+    background-color: #f4efe9;
+}
+
+#main_nav .ui-grid-a a {
+    margin: 8px 5px;
+}
+
+#main_nav .btn_find-hotspot, #modal_main-menu .btn_find-hotspot,
+#main_nav .btn_my-hotspots, #modal_main-menu .btn_my-hotspots,
+#main_nav .btn_species, #modal_main-menu .btn_species,
+#main_nav .btn_fishing, #modal_main-menu .btn_fishing,
+#main_nav .btn_alq, #modal_main-menu .btn_alq, /* ALQ */
+#main_nav .btn_boating, #modal_main-menu .btn_boating {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border: none;
+    text-align: justify;
+    text-indent: 0;
+}
+
+.btn_species { padding: 0 10px; }
+.btn_map { padding: 0 27px; }
+.btn_about { padding: 0 28px; }
+.btn_alq { padding: 0 10px; }
+
+/
+.btn_bigtrees .ui-btn-inner,
+.btn_oldgrowth .ui-btn-inner,
+.btn_species .ui-btn-inner,
+.btn_map .ui-btn-inner,
+.btn_alq .ui-btn-inner,
+.btn_about .ui-btn-inner {
+    overflow: visible;
+} 
+
+.btn_bigtrees .ui-btn-text,
+.btn_my-hotspots .ui-btn-text,
+.btn_oldgrowth .ui-btn-text, 
+.btn_about .ui-btn-text,
+.btn_alq .ui-btn-text,
+.btn_map .ui-btn-text {
+    color: #4c3920;
+    text-shadow: none;
+    font-size: 11px;
+    position: absolute;
+    bottom: 0;
+}
+
+.sprite {
+    background: url(images/sprite_sitewide.png);
+    text-indent: -9999px;
+    border: 0;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.sprite.btn_close { background-position:  -0px -167px; height: 29px; width: 47px; }
+.sprite.btn_my-location { background-position:  -315px -57px; height: 31px; width: 112px; }
+.sprite.logo_take-me-fishing { background-position:  -184px -198px; height: 37px; width: 177px; }
+.sprite.btn_menu { background-position:  -0px -416px; height: 29px; width: 47px; }
+.sprite.btn_bigtrees { background-position:  -0px -196px; height: 110px; width: 76px; }
+.sprite.btn_find-hotspot-small { background-position: -361px -198px; height: 29px; width: 123px; }
+.sprite.btn_oldgrowth { background-position:  -203px -57px; height: 110px; width: 104px; }
+.sprite.btn_my-hotspots-small { background-position: -361px -227px; height: 51px; width: 52px; }
+.sprite.btn_species { background-position:  -95px -167px; height: 110px; width: 64px; }
+.sprite.btn_map { background-position:  -100px -72px; height: 95px; width: 39px; }
+.sprite.btn_about { background-position:  -1px -43px; height: 95px; width: 40px; }
+.sprite.btn_alq { background-position:  -137px -276px; height: 95px; width: 64px; } /* ALQ eNews */
+.sprite.btn_location { background-position:  -0px -322px; height: 94px; width: 62px; }
+.sprite.maximize { background-position:  -63px -138px; height: 29px; width: 31px; }
+.sprite.minimize { background-position:  -47px -416px; height: 29px; width: 31px; }
+.current_location a.sprite { background-position:  -184px -167px; height: 31px; width: 206px; }
+.sprite.btn_go { background-position:  -311px -0px; height: 27px; width: 44px; }
+.sprite.logo_sport-fish-restoration { background-position:  -98px -277px; height: 43px; width: 43px; }
+.sprite.get_directions { background-position:  -220px -0px; height: 23px; width: 91px; }
+.add_hotspot a.sprite { background-position:  -0px -0px; height: 28px; width: 179px; }
+.email_hotspot a.sprite { background-position:  -200px -28px; height: 29px; width: 110px; }
+.sprite.btn_email-this { background-position:  -310px -28px; height: 29px; width: 107px; }
+.sprite.label_fish-species { background-position:  -342px -117px; height: 49px; width: 138px; }
+.sprite.btn_add { background-position:  -179px -0px; height: 28px; width: 41px; }
+.sprite.btn_cancel { background-position:  -0px -138px; height: 29px; width: 63px; }
+.sprite.edit_search { background-position:  -98px -28px; height: 29px; width: 102px; margin: 0;}
+.sprite.btn_show-more-results { background-position:  -315px -88px; height: 29px; width: 170px; margin: 0 12px 0 0;}
+.sprite.btn_edit { background-position:  -47px -167px; height: 29px; width: 47px; }
+.sprite.btn_delete { background-position:  -464px -28px; height: 29px; width: 27px; }
+.sprite.btn_remove { background-position:  -0px -445px; height: 29px; width: 75px; }
+.sprite.btn_save { background-position: -390px -167px; height: 29px; width: 57px; }
+.sprite.icon_hotspot { background-position:  -454px -57px; height: 30px; width: 27px; }
+.sprite.icon_facility { background-position:  -427px -57px; height: 30px; width: 27px; }
+.sprite.icon_water { background-position:  -315px -117px; height: 30px; width: 27px; }
+.sprite.btn_send { background-position:  -417px -28px; height: 29px; width: 47px; }
+
+
+
+/* E
+-----------------------------------------------------------------------------------------------------------*/
+
+.ui-bar-e {
+	border: 1px solid #8cc63f /*{e-bar-border}*/;
+	background: #8cc63f /*{e-bar-background-color}*/;
+	color: #ffffff /*{e-bar-color}*/;
+	font-weight: bold;
+	text-shadow:  0  /*{e-bar-shadow-x}*/  1px  /*{e-bar-shadow-y}*/  1px  /*{e-bar-shadow-radius}*/ #444444 /*{e-bar-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #67922E /*{e-bar-background-start}*/), to( #B0F94F /*{e-bar-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #67922E /*{e-bar-background-start}*/, #B0F94F /*{e-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #67922E /*{e-bar-background-start}*/, #B0F94F /*{e-bar-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #67922E /*{e-bar-background-start}*/, #B0F94F /*{e-bar-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #67922E /*{e-bar-background-start}*/, #B0F94F /*{e-bar-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #67922E /*{e-bar-background-start}*/, #B0F94F /*{e-bar-background-end}*/);
+}
+
+.ui-bar-e .ui-link-inherit {
+	color: #ffffff /*{e-bar-color}*/;
+}
+.ui-bar-e .ui-link {
+	color:  #7cc4e7  /*{e-bar-link-color}*/;
+	font-weight: bold;
+}
+
+.ui-bar-e .ui-link:hover {
+	color:  #2489CE  /*{e-bar-link-hover}*/;
+}
+
+.ui-bar-e .ui-link:active {
+	color:  #2489CE  /*{e-bar-link-active}*/;
+}
+
+.ui-bar-e .ui-link:visited {
+    color:  #2489CE  /*{e-bar-link-visited}*/;
+}
+
+.ui-bar-e,
+.ui-bar-e input,
+.ui-bar-e select,
+.ui-bar-e textarea,
+.ui-bar-e button {
+	  font-family: Helvetica, Arial, sans-serif  /*{global-font-family}*/;
+}
+.ui-body-e,
+.ui-dialog.ui-overlay-e {
+	border: 1px solid #6D6154 /*{e-body-border}*/;
+	color: #000000 /*{e-body-color}*/;
+	text-shadow: 0 /*{e-body-shadow-x}*/  1px  /*{e-body-shadow-y}*/  0  /*{e-body-shadow-radius}*/ #eeeeee /*{e-body-shadow-color}*/;
+	background: #c7b299 /*{e-body-background-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #C8B39A /*{e-body-background-start}*/), to( #C5B097 /*{e-body-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #C8B39A /*{e-body-background-start}*/, #C5B097 /*{e-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #C8B39A /*{e-body-background-start}*/, #C5B097 /*{e-body-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #C8B39A /*{e-body-background-start}*/, #C5B097 /*{e-body-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #C8B39A /*{e-body-background-start}*/, #C5B097 /*{e-body-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #C8B39A /*{e-body-background-start}*/, #C5B097 /*{e-body-background-end}*/);
+}
+.ui-body-e,
+.ui-body-e input,
+.ui-body-e select,
+.ui-body-e textarea,
+.ui-body-e button {
+	  font-family: Helvetica, Arial, sans-serif  /*{global-font-family}*/;
+}
+
+.ui-body-e .ui-link-inherit {
+	color: #000000 /*{e-body-color}*/;
+}
+
+.ui-body-e .ui-link {
+	color: #3d4348 /*{e-body-link-color}*/;
+	font-weight: bold;
+}
+
+.ui-body-e .ui-link:hover {
+	color:  #2489CE  /*{e-body-link-hover}*/;
+}
+
+.ui-body-e .ui-link:active {
+	color:  #2489CE  /*{e-body-link-active}*/;
+}
+
+.ui-body-e .ui-link:visited {
+    color:  #2489CE  /*{e-body-link-visited}*/;
+}
+
+.ui-btn-up-e {
+	border: 1px solid #c7b299 /*{e-bup-border}*/;
+	background: #c7b299 /*{e-bup-background-color}*/;
+	font-weight: bold;
+	color: #000000 /*{e-bup-color}*/;
+	text-shadow:  0  /*{e-bup-shadow-x}*/  1px  /*{e-bup-shadow-y}*/  1px  /*{e-bup-shadow-radius}*/ #eeeeee /*{e-bup-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #DAC3A8 /*{e-bup-background-start}*/), to( #B3A089 /*{e-bup-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #DAC3A8 /*{e-bup-background-start}*/, #B3A089 /*{e-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #DAC3A8 /*{e-bup-background-start}*/, #B3A089 /*{e-bup-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #DAC3A8 /*{e-bup-background-start}*/, #B3A089 /*{e-bup-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #DAC3A8 /*{e-bup-background-start}*/, #B3A089 /*{e-bup-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #DAC3A8 /*{e-bup-background-start}*/, #B3A089 /*{e-bup-background-end}*/);
+}
+.ui-btn-up-e a.ui-link-inherit {
+	color: #000000 /*{e-bup-color}*/;
+}
+
+.ui-btn-hover-e {
+	border: 1px solid #E4CCAF /*{e-bhover-border}*/;
+	background: #E4CCAF /*{e-bhover-background-color}*/;
+	font-weight: bold;
+	color: #000000 /*{e-bhover-color}*/;
+	text-shadow:  0  /*{e-bhover-shadow-x}*/  1px  /*{e-bhover-shadow-y}*/  1px  /*{e-bhover-shadow-radius}*/ #eeeeee /*{e-bhover-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #FAE0C0 /*{e-bhover-background-start}*/), to( #CDB79D /*{e-bhover-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #FAE0C0 /*{e-bhover-background-start}*/, #CDB79D /*{e-bhover-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #FAE0C0 /*{e-bhover-background-start}*/, #CDB79D /*{e-bhover-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #FAE0C0 /*{e-bhover-background-start}*/, #CDB79D /*{e-bhover-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #FAE0C0 /*{e-bhover-background-start}*/, #CDB79D /*{e-bhover-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #FAE0C0 /*{e-bhover-background-start}*/, #CDB79D /*{e-bhover-background-end}*/);
+}
+.ui-btn-hover-e a.ui-link-inherit {
+	color: #000000 /*{e-bhover-color}*/;
+}
+.ui-btn-down-e {
+	border: 1px solid #E4CCAF /*{e-bdown-border}*/;
+	background: #E4CCAF /*{e-bdown-background-color}*/;
+	font-weight: bold;
+	color: #000000 /*{e-bdown-color}*/;
+	text-shadow:  0  /*{e-bdown-shadow-x}*/  1px  /*{e-bdown-shadow-y}*/  1px  /*{e-bdown-shadow-radius}*/ #eeeeee /*{e-bdown-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #CDB79D /*{e-bdown-background-start}*/), to( #FAE0C0 /*{e-bdown-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #CDB79D /*{e-bdown-background-start}*/, #FAE0C0 /*{e-bdown-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #CDB79D /*{e-bdown-background-start}*/, #FAE0C0 /*{e-bdown-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #CDB79D /*{e-bdown-background-start}*/, #FAE0C0 /*{e-bdown-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #CDB79D /*{e-bdown-background-start}*/, #FAE0C0 /*{e-bdown-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #CDB79D /*{e-bdown-background-start}*/, #FAE0C0 /*{e-bdown-background-end}*/);
+}
+.ui-btn-down-e a.ui-link-inherit {
+	color: #000000 /*{e-bdown-color}*/;
+}
+.ui-btn-up-e,
+.ui-btn-hover-e,
+.ui-btn-down-e {
+	  font-family: Helvetica, Arial, sans-serif  /*{global-font-family}*/;
+	text-decoration: none;
+}
+
+
+.ui-page {
+    -webkit-backface-visibility: hidden;
+}
+
+
+/* MAP STUFF 
+
+.mapHeader{
+height:10% !important;
+}
+
+.mapFooter{
+height:10% !important;
+}
+
+#map_canvas{
+padding-top:10%;
+padding-bottom:10%;
+height:auto;
+position:absolute;
+width:100%;
+height:88%;
+max-height:1600px;
+overflow:hidden;
+display:block;
+}
+
+*/
+
+#map_page, #map_canvas { width: 100%; height: 100%; padding: 0; }
+
+ #forestMap, #forestMap_canvas { width: 100%; height: 100%; padding: 0; }
+ 
+ #treeMap, #treeMap_canvas { width: 100%; height: 100%; padding: 0; }
+ 
+ #treeMapKey {
+ 
+ 
+ 	color: #212121;
+ 
+ 
+ 	background-color: white;
+ 
+ 
+ }
+ 
+ #forestMapKey {
+ 
+ 
+ 	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+ 
+ 
+ 	font-size: 10px;
+ 
+ 
+ 	color: #212121;
+ 
+ 
+ 	background-color: white;
+ 
+ 
+ }
